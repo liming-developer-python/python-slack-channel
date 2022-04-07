@@ -1,0 +1,9 @@
+from pymongo import MongoClient
+import pymongo
+
+CONNECTION_STRING = "mongodb+srv://<username>:<password>@<cluster-name>.mongodb.net/databaseName"
+
+from pymongo import MongoClient
+client = MongoClient(CONNECTION_STRING)
+
+return client['apiCount']
